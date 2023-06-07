@@ -1,5 +1,4 @@
 import streamlit as st
-from pytube import YouTube
 from utilities import get_yt, transcribe_yt
 
 # Page title
