@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as com
-
+com.html("""
   <title>TFF Audio Moderation</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
@@ -155,4 +155,4 @@ import streamlit.components.v1 as com
   </script>
 </body>
 </html>
-
+""",height=600)
